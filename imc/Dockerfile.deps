@@ -1,0 +1,5 @@
+FROM debian:trixie-slim
+
+RUN apt update
+RUN apt upgrade -y
+RUN apt install -y make neko socat gcc
